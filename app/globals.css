@@ -24,3 +24,9 @@
 .missing-label{font-weight:750}
 .site-footer nav{font-size:.875rem;flex-wrap:wrap;gap:16px 24px}
 @media(max-width:760px){.legal-header{justify-content:center}.legal-header nav{flex-wrap:wrap;justify-content:center;gap:14px 20px}.legal-article{padding-block:48px 64px}.site-footer nav{justify-content:flex-start}}
+
+.store-links{display:flex;flex-wrap:wrap;gap:14px}
+.store-links .primary-action{min-width:225px}
+.cta .store-links{justify-content:center}
+.section-heading .screenshot-note{font-size:.875rem}
+@media(max-width:460px){.hero-actions .store-links,.store-links .primary-action{width:100%;min-width:0}}
